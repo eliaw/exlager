@@ -19,7 +19,7 @@ defmodule Exlager.Mixfile do
 
   defp deps do
     [
-     {:lager, git: "https://github.com/basho/lager.git"},
+     {:lager, git: "https://github.com/basho/lager.git", tag: "2.0.2"},
     ]
   end
 end
